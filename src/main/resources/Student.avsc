@@ -1,0 +1,10 @@
+{"namespace": "learn.soft.avro",
+ "type": "record",
+ "name": "Student",
+ "fields": [
+     {"name": "name", "type": "string"},
+     {"name": "favorite_number",  "type": ["int", "null"]},
+     {"name": "favorite_color", "type": ["string", "null"]}
+ ]
+}
+  
